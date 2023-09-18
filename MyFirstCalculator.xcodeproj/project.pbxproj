@@ -35,14 +35,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E722F6CF2A963F3E00BAF883 /* MyFirstIOSCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstIOSCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E722F6CF2A963F3E00BAF883 /* MyFirstCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E722F6D22A963F3E00BAF883 /* MyFirstAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstAppApp.swift; sourceTree = "<group>"; };
 		E722F6D42A963F3E00BAF883 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E722F6D62A963F3E00BAF883 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E722F6D92A963F3E00BAF883 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		E722F6DF2A963F3E00BAF883 /* MyFirstIOSCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFirstIOSCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E722F6DF2A963F3E00BAF883 /* MyFirstCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFirstCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E722F6E32A963F3E00BAF883 /* MyFirstAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstAppTests.swift; sourceTree = "<group>"; };
-		E722F6E92A963F3E00BAF883 /* MyFirstIOSCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFirstIOSCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E722F6E92A963F3E00BAF883 /* MyFirstCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFirstCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E722F6ED2A963F3E00BAF883 /* MyFirstAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstAppUITests.swift; sourceTree = "<group>"; };
 		E722F6EF2A963F3E00BAF883 /* MyFirstAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E7843E8B2A9E371F00FFF9FF /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
@@ -87,9 +87,9 @@
 		E722F6D02A963F3E00BAF883 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E722F6CF2A963F3E00BAF883 /* MyFirstIOSCalculator.app */,
-				E722F6DF2A963F3E00BAF883 /* MyFirstIOSCalculatorTests.xctest */,
-				E722F6E92A963F3E00BAF883 /* MyFirstIOSCalculatorUITests.xctest */,
+				E722F6CF2A963F3E00BAF883 /* MyFirstCalculator.app */,
+				E722F6DF2A963F3E00BAF883 /* MyFirstCalculatorTests.xctest */,
+				E722F6E92A963F3E00BAF883 /* MyFirstCalculatorUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -133,9 +133,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E722F6CE2A963F3E00BAF883 /* MyFirstIOSCalculator */ = {
+		E722F6CE2A963F3E00BAF883 /* MyFirstCalculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E722F6F32A963F3E00BAF883 /* Build configuration list for PBXNativeTarget "MyFirstIOSCalculator" */;
+			buildConfigurationList = E722F6F32A963F3E00BAF883 /* Build configuration list for PBXNativeTarget "MyFirstCalculator" */;
 			buildPhases = (
 				E722F6CB2A963F3E00BAF883 /* Sources */,
 				E722F6CC2A963F3E00BAF883 /* Frameworks */,
@@ -145,14 +145,14 @@
 			);
 			dependencies = (
 			);
-			name = MyFirstIOSCalculator;
+			name = MyFirstCalculator;
 			productName = MyFirstApp;
-			productReference = E722F6CF2A963F3E00BAF883 /* MyFirstIOSCalculator.app */;
+			productReference = E722F6CF2A963F3E00BAF883 /* MyFirstCalculator.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E722F6DE2A963F3E00BAF883 /* MyFirstIOSCalculatorTests */ = {
+		E722F6DE2A963F3E00BAF883 /* MyFirstCalculatorTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E722F6F62A963F3E00BAF883 /* Build configuration list for PBXNativeTarget "MyFirstIOSCalculatorTests" */;
+			buildConfigurationList = E722F6F62A963F3E00BAF883 /* Build configuration list for PBXNativeTarget "MyFirstCalculatorTests" */;
 			buildPhases = (
 				E722F6DB2A963F3E00BAF883 /* Sources */,
 				E722F6DC2A963F3E00BAF883 /* Frameworks */,
@@ -163,14 +163,14 @@
 			dependencies = (
 				E722F6E12A963F3E00BAF883 /* PBXTargetDependency */,
 			);
-			name = MyFirstIOSCalculatorTests;
+			name = MyFirstCalculatorTests;
 			productName = MyFirstAppTests;
-			productReference = E722F6DF2A963F3E00BAF883 /* MyFirstIOSCalculatorTests.xctest */;
+			productReference = E722F6DF2A963F3E00BAF883 /* MyFirstCalculatorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E722F6E82A963F3E00BAF883 /* MyFirstIOSCalculatorUITests */ = {
+		E722F6E82A963F3E00BAF883 /* MyFirstCalculatorUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E722F6F92A963F3E00BAF883 /* Build configuration list for PBXNativeTarget "MyFirstIOSCalculatorUITests" */;
+			buildConfigurationList = E722F6F92A963F3E00BAF883 /* Build configuration list for PBXNativeTarget "MyFirstCalculatorUITests" */;
 			buildPhases = (
 				E722F6E52A963F3E00BAF883 /* Sources */,
 				E722F6E62A963F3E00BAF883 /* Frameworks */,
@@ -181,9 +181,9 @@
 			dependencies = (
 				E722F6EB2A963F3E00BAF883 /* PBXTargetDependency */,
 			);
-			name = MyFirstIOSCalculatorUITests;
+			name = MyFirstCalculatorUITests;
 			productName = MyFirstAppUITests;
-			productReference = E722F6E92A963F3E00BAF883 /* MyFirstIOSCalculatorUITests.xctest */;
+			productReference = E722F6E92A963F3E00BAF883 /* MyFirstCalculatorUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -209,7 +209,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E722F6CA2A963F3E00BAF883 /* Build configuration list for PBXProject "MyFirstIOSCalculator" */;
+			buildConfigurationList = E722F6CA2A963F3E00BAF883 /* Build configuration list for PBXProject "MyFirstCalculator" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -222,9 +222,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E722F6CE2A963F3E00BAF883 /* MyFirstIOSCalculator */,
-				E722F6DE2A963F3E00BAF883 /* MyFirstIOSCalculatorTests */,
-				E722F6E82A963F3E00BAF883 /* MyFirstIOSCalculatorUITests */,
+				E722F6CE2A963F3E00BAF883 /* MyFirstCalculator */,
+				E722F6DE2A963F3E00BAF883 /* MyFirstCalculatorTests */,
+				E722F6E82A963F3E00BAF883 /* MyFirstCalculatorUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -288,12 +288,12 @@
 /* Begin PBXTargetDependency section */
 		E722F6E12A963F3E00BAF883 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E722F6CE2A963F3E00BAF883 /* MyFirstIOSCalculator */;
+			target = E722F6CE2A963F3E00BAF883 /* MyFirstCalculator */;
 			targetProxy = E722F6E02A963F3E00BAF883 /* PBXContainerItemProxy */;
 		};
 		E722F6EB2A963F3E00BAF883 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E722F6CE2A963F3E00BAF883 /* MyFirstIOSCalculator */;
+			target = E722F6CE2A963F3E00BAF883 /* MyFirstCalculator */;
 			targetProxy = E722F6EA2A963F3E00BAF883 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -484,7 +484,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyFirstIOSCalculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyFirstIOSCalculator";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyFirstCalculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyFirstCalculator";
 			};
 			name = Debug;
 		};
@@ -503,7 +503,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyFirstIOSCalculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyFirstIOSCalculator";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyFirstCalculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyFirstCalculator";
 			};
 			name = Release;
 		};
@@ -544,7 +544,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E722F6CA2A963F3E00BAF883 /* Build configuration list for PBXProject "MyFirstIOSCalculator" */ = {
+		E722F6CA2A963F3E00BAF883 /* Build configuration list for PBXProject "MyFirstCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E722F6F12A963F3E00BAF883 /* Debug */,
@@ -553,7 +553,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E722F6F32A963F3E00BAF883 /* Build configuration list for PBXNativeTarget "MyFirstIOSCalculator" */ = {
+		E722F6F32A963F3E00BAF883 /* Build configuration list for PBXNativeTarget "MyFirstCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E722F6F42A963F3E00BAF883 /* Debug */,
@@ -562,7 +562,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E722F6F62A963F3E00BAF883 /* Build configuration list for PBXNativeTarget "MyFirstIOSCalculatorTests" */ = {
+		E722F6F62A963F3E00BAF883 /* Build configuration list for PBXNativeTarget "MyFirstCalculatorTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E722F6F72A963F3E00BAF883 /* Debug */,
@@ -571,7 +571,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E722F6F92A963F3E00BAF883 /* Build configuration list for PBXNativeTarget "MyFirstIOSCalculatorUITests" */ = {
+		E722F6F92A963F3E00BAF883 /* Build configuration list for PBXNativeTarget "MyFirstCalculatorUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E722F6FA2A963F3E00BAF883 /* Debug */,
